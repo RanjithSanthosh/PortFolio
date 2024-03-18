@@ -1,0 +1,61 @@
+/* global variable creation by variable for repeated use of color*/
+:root{
+    --dark-primary: #1b1f24;
+    --primary:#12bdff
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Nunito Sans", sans-serif;
+}
+header{
+    background-color: #1b1f24;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+    padding: 10px 20px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    
+}
+ul li{
+    margin-right: 20px;    
+}
+ul li a{
+    color: white;   
+    text-decoration: none;
+    
+}
+header button{
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: var(--dark-primary);
+    color: var(--primary);
+    border: 1px solid var(--primary) ;
+    border-radius: 5px;
+}
+header button:hover{
+    cursor: pointer;
+    background-color: var(--primary);
+    color: var(--dark-primary);
+}
+/* hover color changing for nav bar */
+ul li a:hover{
+    color: var(--primary);
+}
+.logo{
+    font-weight: bold;
+    color: var(--primary);
+    letter-spacing: 3px;
+}
+header a{
+    text-decoration: none;
+}
